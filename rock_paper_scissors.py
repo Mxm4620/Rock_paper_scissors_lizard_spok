@@ -14,7 +14,7 @@ print("5)" "🖖")
 
 while True:
     player = int(input("Pick a number: "))
-    computer = random.randint(1,3)
+    computer = random.randint(1,5)
     print(f"You chose: {player}")
     print(f"CPU chose: {computer}")
     if player == computer:
